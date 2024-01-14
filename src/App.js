@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import fr from "./build/fr.svg";
+import es from "./build/es.svg";
+import laia from "./build/laia.svg";
+import colas from "./build/colas.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="construction">
+        <img src={fr} alt="En construction" className="text" />
+        <div className="heads">
+          <img src={colas} className="head" alt="logo" />
+          <img src={laia} className="head" alt="logo" />
+        </div>
+        <img src={es} alt="En construcción" className="text" />
+      </div>
     </div>
   );
 }
