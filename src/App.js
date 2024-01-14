@@ -1,7 +1,7 @@
-import fr from "./build/fr.svg";
-import es from "./build/es.svg";
-import laia from "./build/laia.svg";
-import colas from "./build/colas.svg";
+import fr from "./build/fr.png";
+import es from "./build/es.png";
+import laia from "./build/laia.png";
+import colas from "./build/colas.png";
 import "./App.css";
 
 function App() {
